@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.arena.biel.arenacamp.activity.SobrenosActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sobre o aplicativo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="3dp"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textColor="#00294d"
+        android:id="@+id/textView3" />
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="70dp"
+        android:text="O aplicativo Futebola foi desenvolvido pelos alunos do curso de Desenvolvimento Mobile da UniNorte."
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="16dp"
+        android:text="Alunos: Leo Jardim - 17349273 joao arcangelo - 17340314"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp" />
+
+</RelativeLayout>

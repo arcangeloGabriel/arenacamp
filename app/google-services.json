@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1025026877908",
+    "firebase_url": "https://arenacamp-54841.firebaseio.com",
+    "project_id": "arenacamp-54841",
+    "storage_bucket": "arenacamp-54841.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025026877908:android:77926e81c0b5e3cd",
+        "android_client_info": {
+          "package_name": "com.arena.biel.arenacamp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025026877908-ka6jrib0ju03fndblq0hdfb4g21m9hgr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arena.biel.arenacamp",
+            "certificate_hash": "4eb11a15b855acd6958e476133bc5649327da0c5"
+          }
+        },
+        {
+          "client_id": "1025026877908-qd03tcl3kpd6rmq8dehs7d51hnp9crao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAed82BFTuPqtyswly9ycJx_lRrA33GndM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1025026877908-qd03tcl3kpd6rmq8dehs7d51hnp9crao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

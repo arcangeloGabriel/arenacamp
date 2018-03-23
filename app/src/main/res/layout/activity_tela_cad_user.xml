@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.arena.biel.arenacamp.activity.TelaCadUserActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/cadfotoId"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/foto_perfil"/>
+        <TextView
+            android:id="@+id/addfotoId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:textColor="#000"
+            android:text="Adicionar Foto"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textStyle="normal"
+            android:textColor="#000"
+            android:text="@string/nome" />
+
+
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/edNomeId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="@string/nome_hint"
+            app:bootstrapSize="md"
+            app:bootstrapBrand="info" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:text="@string/telefone" />
+
+
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/edTelefoneId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:hint="@string/telefone_hint"
+            app:bootstrapSize="md"
+            app:bootstrapBrand="info"
+            app:roundedCorners="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:text="@string/email" />
+
+
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+
+            android:id="@+id/edEmailId"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bootstrapSize="md"
+            app:bootstrapBrand="info"
+            app:roundedCorners="true" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:text="@string/senha" />
+
+
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+
+            app:bootstrapSize="md"
+            app:bootstrapBrand="info"
+            android:id="@+id/edSenhaId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:inputType="textPassword"
+            android:hint="@string/senha_hint"
+            app:roundedCorners="true" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:text="@string/endereco" />
+
+
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/edEnderecoId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:hint="@string/endereco_hint"
+            app:bootstrapSize="md"
+            app:bootstrapBrand="info"
+            app:roundedCorners="true" />
+
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:id="@+id/btCadastrarId"
+            android:layout_width="185dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000"
+            android:text="@string/cadastrar"
+            app:bootstrapBrand="success"
+            app:bootstrapSize="md"
+            app:buttonMode="regular"
+            app:showOutline="false"
+            app:roundedCorners="true" />
+
+    </LinearLayout>
+
+</ScrollView>

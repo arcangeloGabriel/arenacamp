@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Arena Camp</string>
+
+    <string name="nome">NOME</string>
+    <string name="nome_hint">Nome completo</string>
+    <string name="telefone">TELEFONE</string>
+    <string name="telefone_hint">(xx) xxxxx-xxxx</string>
+    <string name="email">E-MAIL</string>
+    <string name="email_hint">Usuario@exemplo.com</string>
+    <string name="senha">SENHA</string>
+    <string name="senha_hint">Crie uma senha</string>
+    <string name="endereco">ENDEREÇO</string>
+    <string name="endereco_hint">Rua, Av., Beco...</string>
+    <!--acao do butao-->
+    <string name="cadastrar">CADASTRAR</string>
+    <string name="atualizar">ATUALIZAR</string>
+    <string name="entrar">ENTRAR</string>
+    <string name="enviar">ENVIAR</string>
+    <!--mascara do fone-->
+    <string name="mascara_hint">(92)99999-9999</string>
+    <!--acao do butao-->
+    <string name="usuarioLogin">Usuário:</string>
+    <string name="usuarioLogin_hint">Digite seu email</string>
+    <string name="usuarioSenhaLogin">Senha:</string>
+    <string name="usuarioSenha_hint">Digite sua senha</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_princiapl">PrinciaplActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Sair</string>
+    <string name="action_editar">Editar</string>
+</resources>
